@@ -1,13 +1,9 @@
 #include <stdio.h>
 
 /**
- *
- * main - Print all single digit numbers
- *
- *
+ * main - Entry point
  *
  * Return: Always 0 (Success)
- *
  */
 
 int main(void)
