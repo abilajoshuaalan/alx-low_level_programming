@@ -1,14 +1,11 @@
 #include <stdio.h>
 
 /**
- *
- * main - Print the alphabet in lowercase letters, except for e and q
- *
- * 
+ * main - Entry Point
  *
  * Return: Always 0 (Success)
- *
  */
+
 int main(void)
 {
 	char letter;
@@ -20,7 +17,7 @@ int main(void)
 	if (letter != 'e' && letter != 'q')
 
 		putchar(letter);
-  	}
+		}
 
 	putchar('\n');
 	return (0);

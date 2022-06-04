@@ -1,24 +1,15 @@
 #include <stdio.h>
 
 /**
- *
- * main - print alphabet in lower and uppercase
- *
- *  
- *
- *  
+ * main - Entry point
  *
  * Return: (0) Success
- *
  */
 
 int main(void)
-
 {
 
 	char ch;
-
-
 
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 
