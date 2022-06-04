@@ -2,13 +2,15 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
+
 /**
- * * main - Entry point,
- * * Return: Always return 0.
- * */
+ * main - Entry point,
+ * Return: Always return 0.
+ */
 int main(void)
 {
 	int n, last;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
